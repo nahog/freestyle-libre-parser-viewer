@@ -147,7 +147,7 @@
                         text: '1m'
                     }, {
                         type: 'month',
-                        count: 1,                        
+                        count: 3,                        
                         text: '3m'
                     }, {
                         type: 'all',
