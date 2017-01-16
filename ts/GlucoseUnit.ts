@@ -1,0 +1,4 @@
+enum GlucoseUnit {
+    MmolPerL,
+    MgPerDl
+}

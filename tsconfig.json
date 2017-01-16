@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "preserveConstEnums": true,
+        "outFile": "js/freestylelibrelib.js",
+        "sourceMap": false
+    },
+    "include": [
+        "ts/**/*",
+        "typings/index.d.ts"
+    ],
+    "exclude": [
+        "**/*.spec.ts"
+    ]
+}
