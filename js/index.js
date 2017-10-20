@@ -158,9 +158,9 @@
                     enabled: true,
                     layout: 'vertical',
                     backgroundColor: '#FFFFFF',
-                    align: 'right',
-                    x: -30,
-                    y: 50, 
+                    align: 'center',
+                    x: -10,
+                    y: 25, 
                     verticalAlign: 'top',
                     floating: true,
                     shadow: true
