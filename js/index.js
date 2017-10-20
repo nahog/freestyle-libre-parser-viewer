@@ -34,12 +34,12 @@
                     ]
                 },
                 {
-                    name: 'Rapid-Actin Insulin',
+                    name: 'Rapid-Acting Insulin',
                     color: '#FAAC58',
                     data: []
                 },
                 {
-                    name: 'Long-Actin Insulin', 
+                    name: 'Long-Acting Insulin', 
                     color: '#BE81F7', 
                     data: [] 
                 },  
@@ -54,7 +54,7 @@
                     }
                 },   
                 {
-                    name: 'Rapid-Actin Insulin Injection',
+                    name: 'Rapid-Acting Insulin Injection',
                     color: '#FAAC58',
                     data: [],
                     lineWidth: 0,
@@ -64,7 +64,7 @@
                     }
                 },       
                 { 
-                    name: 'Long-Actin Insulin Injection', 
+                    name: 'Long-Acting Insulin Injection', 
                     color: '#BE81F7', 
                     data: [], 
                     lineWidth: 0, 
@@ -74,13 +74,13 @@
                     } 
                 },        
                 { 
-                    name: 'Hipo', 
+                    name: 'Hypo', 
                     color: '#F5A9A9', 
                     dashStyle: 'ShortDash', 
                     data: []
                 },
                 { 
-                    name: 'Hiper', 
+                    name: 'Hyper', 
                     color: '#F5A9A9', 
                     dashStyle: 'ShortDash', 
                     data: []
