@@ -34,12 +34,12 @@
                     ]
                 },
                 {
-                    name: 'Rapid-Acting Insulin',
+                    name: 'Rapid-Actin Insulin',
                     color: '#FAAC58',
                     data: []
                 },
                 {
-                    name: 'Long-Acting Insulin', 
+                    name: 'Long-Actin Insulin', 
                     color: '#BE81F7', 
                     data: [] 
                 },  
@@ -54,7 +54,7 @@
                     }
                 },   
                 {
-                    name: 'Rapid-Acting Insulin Injection',
+                    name: 'Rapid-Actin Insulin Injection',
                     color: '#FAAC58',
                     data: [],
                     lineWidth: 0,
@@ -64,7 +64,7 @@
                     }
                 },       
                 { 
-                    name: 'Long-Acting Insulin Injection', 
+                    name: 'Long-Actin Insulin Injection', 
                     color: '#BE81F7', 
                     data: [], 
                     lineWidth: 0, 
@@ -74,13 +74,13 @@
                     } 
                 },        
                 { 
-                    name: 'Hypo', 
+                    name: 'Hipo', 
                     color: '#F5A9A9', 
                     dashStyle: 'ShortDash', 
                     data: []
                 },
                 { 
-                    name: 'Hyper', 
+                    name: 'Hiper', 
                     color: '#F5A9A9', 
                     dashStyle: 'ShortDash', 
                     data: []
@@ -158,9 +158,9 @@
                     enabled: true,
                     layout: 'vertical',
                     backgroundColor: '#FFFFFF',
-                    align: 'center',
-                    x: -10,
-                    y: 25, 
+                    align: 'right',
+                    x: -30,
+                    y: 50, 
                     verticalAlign: 'top',
                     floating: true,
                     shadow: true

@@ -4,8 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Freestyle Libre Parser/Viewer Examples</title>
+    <title>Freestyle Libre Parser/Viewer - ChartJS example</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <style>
+      canvas {
+          -moz-user-select: none;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+      }
+    </style>
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -13,14 +20,19 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Freestyle Libre Parser/Viewer Examples</h1>
+    <h1>Freestyle Libre Parser/Viewer - ChartJS example</h1>
 
-    <ul>
-      <li><a href="index-highcharts.html">Highcharts example</a></li>
-      <li><a href="index-chartjs.html">ChartJS example</a></li>
-    </ul>
+    <input type="file" id="file" name="file" />
+    <span id="output"></span>
+    <div>
+      <canvas id="canvas"></canvas>
+    </div>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/moment/moment.js"></script>
+    <script src="node_modules/chart.js/dist/Chart.js"></script>
+    <script src="js/freestylelibrelib.js"></script>
+    <script src="js/index-chartjs.js"></script>
   </body>
 </html>

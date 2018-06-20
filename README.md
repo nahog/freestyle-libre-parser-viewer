@@ -12,6 +12,8 @@ Create a library to read and manage TSV files created by the FreeStyle libre app
 
 Mount a local web-server (for example using node's `http-server`) and browse to the `index.html` (for example http://127.0.0.1:8080/index.html) to open the main view that lets you import a tsv file generated from the Abbott FreeStyle Libre app (or use the test.tsv example file) and visualize the data in the HighChart chart.
 
+There are two viewer examples, one using highcharts (more complete) and another using Chart.js (more basic).
+
 ## How to use the FreeStyleLibreLib (developer)
 
 ```javascript
